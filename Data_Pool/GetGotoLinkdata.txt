@@ -1,0 +1,13 @@
+1803,en,1,331829,--正常数据 PASS code:0
+yiba,en,1,331829,--异常数据，countryCode格式有误 FAIL code:-2  ??-9
+1803,01,1,331829,--异常数据，langCode格式有误 FAIL code:-2
+1803,en,j1,331829,--异常数据，dataType格式有误 FAIL code:-2 ??-9
+1803,en,1,数字,--异常数据，id格式有误 FAIL code:-2 
+,en,1,331829,--异常数据，countryCode为空 FAIL code:-2  ??code: 0
+1803,,1,331829,--异常数据，langCode为空 FAIL code:-2
+1803,en,,331829,--异常数据，dataType为空 FAIL code:-2 
+1803,en,1,,--异常数据，id为空 FAIL code:-2
+%1803#,en,1,331829,--异常数据，countryCode包含特殊字符 FAIL code:-2  ??code: -9
+1803,#en@,1,331829,--异常数据，langCode包含特殊字符 FAIL code:-2
+1803,en,$#112229,331829,--异常数据，dataType包含特殊字符 FAIL code:-2  ??code: -9
+1803,en,1,!!#@20,--异常数据，id包含特殊字符 FAIL code:-2 

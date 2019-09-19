@@ -1,0 +1,22 @@
+1803,en,20,1,1,3,--正常数据 PASS code:0
+yiba,en,20,1,1,3,--异常数据，countryCode格式有误 FAIL code:-2
+1803,01,20,1,1,3,--异常数据，langCode格式有误 FAIL code:-2
+1803,en,二十,1,1,3,--异常数据，pageCount格式有误 FAIL code:-2 
+1803,en,20,df,1,3,--异常数据，pageNum格式有误 FAIL code:-2 
+1803,en,20,1,数字,3,--异常数据，modularIndex格式有误 FAIL code:-2 
+1803,en,20,1,1,two,--异常数据，merProCount格式有误 FAIL code:-2 
+,en,20,1,1,3,--异常数据，countryCode为空 FAIL code:-2
+1803,,20,1,1,3,--异常数据，langCode为空 FAIL code:-2
+1803,en,,1,1,3,--异常数据，pageCount为空 FAIL code:-2 
+1803,en,20,,1,3,--异常数据，pageNum为空 FAIL code:-2 
+1803,en,20,1,,3,--异常数据，modularIndex为空 FAIL code:-2 
+1803,en,20,1,1,,--异常数据，merProCount为空 FAIL code:-2 
+%1803#,en,20,1,1,3,--异常数据，countryCode包含特殊字符 FAIL code:-2
+1803,#en@,20,1,1,3,--异常数据，langCode包含特殊字符 FAIL code:-2
+1803,en,*&@20,1,1,3,--异常数据，pageCount包含特殊字符 FAIL code:-2 
+1803,en,20,!!#@20,1,3,--异常数据，pageNum包含特殊字符 FAIL code:-2 
+1803,en,20,1,$20%25(*,3,--异常数据，modularIndex包含特殊字符 FAIL code:-2 
+1803,en,20,1,1,%40%25!20%25,--异常数据，merProCount包含特殊字符 FAIL code:-2 
+1803,en,30,1,1,3,--异常数据，pageCount数量大于20 FAIL code:-2  ??0  没限制大小?
+1803,en,20,109,1,3,--异常数据，pageNum页码数量大于100 FAIL code:-2  ??0  没限制大小?
+1803,en,20,1,1,26,--异常数据，merProCount数量大于20 FAIL code:-2  ??0  没限制大小?

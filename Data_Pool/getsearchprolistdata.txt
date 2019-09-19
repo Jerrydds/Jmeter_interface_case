@@ -1,0 +1,21 @@
+1803,en,20,1,1,mi,--正常数据 PASS code:0
+yiba,en,20,1,1,mi,--异常数据，countryCode格式有误 FAIL code:-2
+1803,01,20,1,1,mi,--异常数据，langCode格式有误 FAIL code:-2
+1803,en,二十,1,1,mi,--异常数据，pageCount格式有误 FAIL code:-2 
+1803,en,20,df,1,mi,--异常数据，pageNum格式有误 FAIL code:-2 
+1803,en,20,1,数字,mi,--异常数据，OrderBy格式有误 FAIL code:-2 
+1803,en,20,1,1,12林two,--异常数据，searchText格式有误 PASS code:0
+,en,20,1,1,mi,--异常数据，countryCode为空 FAIL code:-2
+1803,,20,1,1,mi,--异常数据，langCode为空 FAIL code:-2
+1803,en,,1,1,mi,--异常数据，pageCount为空 FAIL code:-2 
+1803,en,20,,1,mi,--异常数据，pageNum为空 FAIL code:-2 
+1803,en,20,1,,mi,--异常数据，OrderBy为空 FAIL code:-2 
+1803,en,20,1,1,,--异常数据，searchText为空 PASS code:0
+%1803#,en,20,1,1,mi,--异常数据，countryCode包含特殊字符 FAIL code:-2
+1803,#en@,20,1,1,mi,--异常数据，langCode包含特殊字符 FAIL code:-2
+1803,en,*&@112229,1,1,mi,--异常数据，pageCount包含特殊字符 FAIL code:-2 
+1803,en,20,!!#@20,1,mi,--异常数据，pageNum包含特殊字符 FAIL code:-2 
+1803,en,20,1,$20%25(*,mi,--异常数据，OrderBy包含特殊字符 FAIL code:-2 
+1803,en,20,1,1,%40%25!20%25m,--异常数据，searchText包含特殊字符 PASS code:0
+1803,en,21,1,1,mi,--异常数据，pageCount数量大于20 FAIL code:-2 ??0  没限制大小?
+1803,en,20,102,1,mi,--异常数据，pageNum数量大于100 FAIL code:-2 ??0  没限制大小?

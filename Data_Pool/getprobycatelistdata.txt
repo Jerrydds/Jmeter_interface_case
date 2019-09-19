@@ -1,0 +1,18 @@
+1803,en,20,1,101001,--正常数据 PASS code:0
+yiba,en,20,1,101001,--异常数据，countryCode格式有误 FAIL code:-2
+1803,01,20,1,101001,--异常数据，langCode格式有误 FAIL code:-2
+1803,en,二十,1,101001,--异常数据，pageCount格式有误 FAIL code:-2 
+1803,en,20,df,101001,--异常数据，pageNum格式有误 FAIL code:-2 
+1803,en,20,1,数字,--异常数据，categoryId格式有误 FAIL code:-2 
+,en,20,1,101001,--异常数据，countryCode为空 FAIL code:-2
+1803,,20,1,101001,--异常数据，langCode为空 FAIL code:-2
+1803,en,,1,101001,--异常数据，pageCount为空 FAIL code:-2 
+1803,en,20,,101001,--异常数据，pageNum为空 FAIL code:-2 
+1803,en,20,1,,--异常数据，categoryId为空 FAIL code:-2  ??code: -1
+%1803#,en,20,1,101001,--异常数据，countryCode包含特殊字符 FAIL code:-2
+1803,#en@,20,1,101001,--异常数据，langCode包含特殊字符 FAIL code:-2
+1803,en,*&@112229,1,101001,--异常数据，pageCount包含特殊字符 FAIL code:-2 
+1803,en,20,!!#@20,101001,--异常数据，pageNum包含特殊字符 FAIL code:-2 
+1803,en,20,1,$20%25(*,--异常数据，categoryId包含特殊字符 FAIL code:-2 
+1803,en,21,1,101001,--异常数据，pageCount数量大于20 FAIL code:-2 ??0  没限制大小?
+1803,en,20,102,101001,--异常数据，pageNum数量大于100 FAIL code:-2 ??0  没限制大小?

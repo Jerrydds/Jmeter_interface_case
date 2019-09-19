@@ -1,0 +1,22 @@
+1803,en,112229,20,20,20,--正常数据 PASS code:0
+yiba,en,112229,20,20,20,--异常数据，countryCode格式有误 FAIL code:-2
+1803,01,112229,20,20,20,--异常数据，langCode格式有误 FAIL code:-2
+1803,en,二十,20,20,20,--异常数据，mid格式有误 FAIL code:-2 
+1803,en,112229,df,20,20,--异常数据，linkRecoCount格式有误 FAIL code:-2 
+1803,en,112229,20,数字,20,--异常数据，linkOtherCount格式有误 FAIL code:-2 
+1803,en,112229,20,20,two,--异常数据，merProCount格式有误 FAIL code:-2 
+,en,112229,20,20,20,--异常数据，countryCode为空 FAIL code:-2  
+1803,,112229,20,20,20,--异常数据，langCode为空 FAIL code:-2
+1803,en,,20,20,20,--异常数据，mid为空 FAIL code:-2  
+1803,en,112229,,20,20,--异常数据，linkRecoCount为空 FAIL code:-2
+1803,en,112229,20,,20,--异常数据，linkOtherCount为空 FAIL code:-2 
+1803,en,112229,20,20,,--异常数据，merProCount为空 FAIL code:-2 
+%1803#,en,112229,20,20,20,--异常数据，countryCode包含特殊字符 FAIL code:-2  
+1803,#en@,112229,20,20,20,--异常数据，langCode包含特殊字符 FAIL code:-2
+1803,en,*&@112229,20,20,20,--异常数据，mid包含特殊字符 FAIL code:-2 
+1803,en,112229,!!#@20,20,20,--异常数据，linkRecoCount包含特殊字符 FAIL code:-2 
+1803,en,112229,20,$20%25(*,20,--异常数据，linkOtherCount包含特殊字符 FAIL code:-2 
+1803,en,112229,20,20,%40%25!20%25,--异常数据，merProCount包含特殊字符 FAIL code:-2 
+1803,en,112229,101,20,20,--异常数据，linkRecoCount数量大于100 FAIL code:-2 ??0 没限制大小? 
+1803,en,112229,20,101,20,--异常数据，linkOtherCount数量大于100 FAIL code:-2 ??0 没限制大小?
+1803,en,112229,20,20,210,--异常数据，ProCount数量大于20 FAIL code:-2 ??0 没限制大小?
