@@ -67,7 +67,7 @@
           </elementProp>
           <elementProp name="name" elementType="Argument">
             <stringProp name="Argument.name">name</stringProp>
-            <stringProp name="Argument.value">线上</stringProp>
+            <stringProp name="Argument.value">测试</stringProp>
             <stringProp name="Argument.desc">切换用户登录环境</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
