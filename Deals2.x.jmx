@@ -8638,7 +8638,7 @@ di	integer	di	折扣
 wc	integer	WeekClicks	浏览量</stringProp>
       </ThreadGroup>
       <hashTree/>
-      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="不同环境用户登录" enabled="true"/>
+      <TestFragmentController guiclass="TestFragmentControllerGui" testclass="TestFragmentController" testname="不同环境用户登录" enabled="false"/>
       <hashTree>
         <IfController guiclass="IfControllerPanel" testclass="IfController" testname="测试环境" enabled="true">
           <stringProp name="TestPlan.comments">测试环境</stringProp>
@@ -8822,7 +8822,7 @@ wc	integer	WeekClicks	浏览量</stringProp>
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;Version&quot;:&quot;a2.0&quot;,&#xd;
+    &quot;Version&quot;:&quot;2.0&quot;,&#xd;
     &quot;Method&quot;:&quot;GetSimilarMerchant&quot;,&#xd;
     &quot;SourceType&quot;:&quot;0&quot;,&#xd;
     &quot;Cookies&quot;:&quot;&quot;,&#xd;
@@ -8830,7 +8830,6 @@ wc	integer	WeekClicks	浏览量</stringProp>
     {&#xd;
         &quot;countryCode&quot;: 0,&#xd;
         &quot;langCode&quot;: &quot;en&quot;,&#xd;
-        &quot;isMobile&quot;: true,&#xd;
         &quot;pageCount&quot;: 20,&#xd;
         &quot;pageNum&quot;: 1,&#xd;
         &quot;imgTypeEnum&quot;: 4,&#xd;
@@ -8895,13 +8894,6 @@ WeekClicksDesc	4	周点击数降序</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">langCode</stringProp>
-              </elementProp>
-              <elementProp name="isMobile" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">true</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">isMobile</stringProp>
               </elementProp>
               <elementProp name="pageCount" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
