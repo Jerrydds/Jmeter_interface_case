@@ -67,7 +67,7 @@
           </elementProp>
           <elementProp name="name" elementType="Argument">
             <stringProp name="Argument.name">name</stringProp>
-            <stringProp name="Argument.value">线上</stringProp>
+            <stringProp name="Argument.value">测试</stringProp>
             <stringProp name="Argument.desc">切换用户登录环境</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -7489,7 +7489,7 @@ MaxCount	integer	最大收藏数
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
+            <intProp name="Assertion.test_type">16</intProp>
             <stringProp name="Assertion.custom_message"></stringProp>
           </ResponseAssertion>
           <hashTree/>
@@ -7730,7 +7730,7 @@ MaxCount	integer	最大收藏数
             </collectionProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">2</intProp>
+            <intProp name="Assertion.test_type">16</intProp>
             <stringProp name="Assertion.custom_message"></stringProp>
           </ResponseAssertion>
           <hashTree/>
@@ -8883,7 +8883,7 @@ WeekClicksDesc	4	周点击数降序</stringProp>
             <collectionProp name="Arguments.arguments">
               <elementProp name="countryCode" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">2105</stringProp>
+                <stringProp name="Argument.value">0</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">countryCode</stringProp>
