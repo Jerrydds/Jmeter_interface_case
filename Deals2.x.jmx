@@ -17,6 +17,10 @@
             <stringProp name="Header.name">Content-Type</stringProp>
             <stringProp name="Header.value">application/json;charset=utf-8</stringProp>
           </elementProp>
+          <elementProp name="Referer&#x9;https" elementType="Header">
+            <stringProp name="Header.name">Referer</stringProp>
+            <stringProp name="Header.value">https://www.17track.net/en</stringProp>
+          </elementProp>
         </collectionProp>
       </HeaderManager>
       <hashTree/>
